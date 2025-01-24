@@ -1,0 +1,15 @@
+.LetterContainer{
+    border-radius: 50px;
+    padding: 20px;
+    width: 50%;
+    height: 64%;
+    background-color: rgba(246, 139, 139, 0.981);
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    box-shadow: 10px 10px 20px rgba(2, 0, 0, 0.6);
+
+}
+.love{
+    
+    color: rgb(182, 13, 13);
+}

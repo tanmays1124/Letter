@@ -1,0 +1,72 @@
+.CardContainer{
+    border: 1px solid red;
+    width: 100vw;
+    height: 100vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.3)), url("C:\Users\Asus\Desktop\Surprise\surprise\src\Component\762298e6-b83b-4016-be94-0dc582d197f9.jpg");
+    background-size: cover;
+    background-position: center;
+   
+    
+    
+}
+
+
+.Png1{
+    height: 150px;
+    width: 150px;
+    z-index: -1;
+}
+
+.buttons{
+    width: 20%;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    flex-direction: row;
+
+}
+
+.buttons button{
+    cursor: pointer;
+    width: 60px;
+    background: rgb(205, 14, 14);
+    border-radius: 20%;
+    border: none;
+    color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    height: 35px;
+    transition: 0.1s ease-in-out ;
+}
+
+.buttons button:hover{
+    background-color: rgb(236, 37, 37);
+    color: black;
+
+}
+
+.buttons button:active{
+    background-color: rgb(177, 0, 30);
+}
+
+.confetti{
+    position: absolute;
+    top: 0;
+    width: 1000px;
+    height: 1000px;
+    z-index: 1;
+    left: 400px;
+
+}
+
+.hidden{
+    display: none;
+}
+
+.question{
+    font-size: xx-large;
+    color: rgb(88, 25, 7);
+}
